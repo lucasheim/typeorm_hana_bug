@@ -1,0 +1,15 @@
+{
+  "type": "sap",
+  "host": "localhost",
+  "port": 39041,
+  "username": "SYSTEM",
+  "database": "HXE",
+  "password": "M@st3rP@55",
+  "synchronize": false,
+  "entities": ["src/entity/*.js"],
+  "migrations": ["src/migration/*.js"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration"
+  }
+}
